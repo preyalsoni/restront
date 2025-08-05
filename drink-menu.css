@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 30px 20px;
     font-family: 'Poppins', sans-serif;
-    background: url('images/drink-image.jpeg') no-repeat center center fixed;
+    background: url('drink-image.jpeg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 3px black;
