@@ -93,8 +93,7 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     transition: all 0.25s ease;
     display: inline-block;
-    text-shadow: none;
-     border: 1px dashed red; /* Just for testing! */   
+    text-shadow: none; 
   }
   
   .back-button:hover {
