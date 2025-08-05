@@ -1,46 +1,113 @@
+/* === Background and General Styling === */
 body {
     margin: 0;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background: url('menu-image.jpeg') no-repeat center center fixed;
+    padding: 30px 20px;
+    font-family: 'Poppins', sans-serif;
+    background: url('images/menu-image.jpeg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color: white;
     text-shadow: 1px 1px 3px black;
-    height: 100vh;
+    min-height: 100vh;
+    overflow-x: hidden;
   }
   
+  /* === Container === */
   .menu-content {
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
     margin: auto;
+  }
+  
+  /* === Headings === */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
     text-align: center;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 10px;
   }
   
-  h1, h2 {
-    margin-bottom: 10px;
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffd700;
+    border-bottom: 1px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 6px;
   }
   
-  ul {
-    list-style: none;
-    padding: 0;
+  /* === Menu Items === */
+  .menu-item {
+    margin-bottom: 20px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
   }
   
-  li {
-    padding: 8px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  .menu-item-name {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
   }
   
+  .menu-item-desc {
+    font-size: 14px;
+    color: #ddd;
+    margin-top: 4px;
+    padding-left: 5px;
+  }
+  .menu-item-allergens {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 3px;
+    padding-left: 1px;
+    font-style: italic;
+  }
+  
+  /* === Back Button === */
   .back-button {
     color: #ffd700;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
   }
   
   .back-button:hover {
     text-decoration: underline;
+  }
+  
+  /* === Responsive === */
+  @media (max-width: 768px) {
+    body {
+      padding: 15px 10px;
+    }
+  
+    .menu-content {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .menu-item-name {
+      font-size: 16px;
+    }
+  
+    .menu-item-desc {
+      font-size: 13px;
+    }
   }
   
