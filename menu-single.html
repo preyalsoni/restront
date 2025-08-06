@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Namaaste London - Indian Restaurant Menu | London, UK</title>
+    <meta name="description" content="Authentic Indian cuisine in London. View our menu featuring chaats, curries, biryanis, and refreshing drinks. Visit us in London for the best Indian dining experience.">
+    <meta name="keywords" content="Indian restaurant London, Indian food London, chaat London, curry London, biryani London, Indian takeaway London, best Indian restaurant London">
+    <meta name="author" content="Namaaste London">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Namaaste London - Authentic Indian Restaurant Menu">
+    <meta property="og:description" content="Discover authentic Indian cuisine in London. Fresh ingredients, traditional recipes, and modern presentation.">
+    <meta property="og:type" content="restaurant.menu">
+    <meta property="og:url" content="https://namaaste-london.com/menu">
+    <meta property="og:image" content="https://namaaste-london.com/images/restaurant-hero.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Namaaste London - Indian Restaurant Menu">
+    <meta name="twitter:description" content="Authentic Indian cuisine in London. Fresh ingredients, traditional recipes.">
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Namaaste London",
+        "description": "Authentic Indian restaurant serving traditional chaats, curries, and biryanis in London",
+        "url": "https://namaaste-london.com",
+        "telephone": "+44-20-XXXX-XXXX",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 High Street",
+            "addressLocality": "London",
+            "postalCode": "SW1A 1AA",
+            "addressCountry": "GB"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.5074,
+            "longitude": -0.1278
+        },
+        "openingHours": "Mo-Th 12:00-23:00, Fr-Su 12:00-00:00",
+        "priceRange": "££",
+        "servesCuisine": "Indian",
+        "menu": "https://namaaste-london.com/menu"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="menu-single.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Namaaste London</h1>
+                    <p>Authentic Indian Cuisine</p>
+                </div>
+                <div class="header-actions">
+                    <a href="index.html" class="action-btn">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="https://instagram.com/namaaste_london" target="_blank" class="action-btn">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="action-btn" id="reviews-btn">
+                        <i class="fas fa-star"></i>
+                        <span>Reviews</span>
+                    </a>
+                    <a href="https://maps.google.com/?q=Namaaste+London" target="_blank" class="action-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Location</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Our Menu</h2>
+                <p>Discover authentic Indian flavors crafted with fresh ingredients and traditional recipes</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opening Hours Section -->
+    <section class="hours-section">
+        <div class="container">
+            <div class="hours-content">
+                <h2>Opening Hours</h2>
+                <div class="hours-grid">
+                    <div class="hours-card">
+                        <h3><i class="fas fa-utensils"></i> Food</h3>
+                        <div class="hours-details">
+                            <div class="hours-row">
+                                <span class="days">Monday–Thursday</span>
+                                <span class="time">12 PM – 11 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="days">Friday–Sunday</span>
+                                <span class="time">12 PM – 12 AM</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hours-card">
+                        <h3><i class="fas fa-coffee"></i> Coffee</h3>
+                        <div class="hours-details">
+                            <div class="hours-row">
+                                <span class="days">Monday–Thursday</span>
+                                <span class="time">7 AM – 6 PM</span>
+                            </div>
+                            <div class="hours-row">
+                                <span class="days">Saturday–Sunday</span>
+                                <span class="time">8 AM – 7 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Visit Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>123 High Street<br>London, SW1A 1AA</p>
+                        <a href="https://maps.google.com/?q=Namaaste+London" target="_blank" class="btn btn-secondary">Get Directions</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+44 20 XXXX XXXX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food Menu Section -->
+    <section id="food-menu" class="menu-section">
+        <div class="container">
+            <div class="menu-header">
+                <h2>Food Menu</h2>
+                <p>Fresh ingredients, traditional recipes, modern presentation</p>
+            </div>
+
+            <!-- Menu Navigation -->
+            <div class="menu-nav">
+                <button class="nav-btn active" data-category="all">All Items</button>
+                <button class="nav-btn" data-category="chaats">Chaats</button>
+                <button class="nav-btn" data-category="veg-curries">Veg Curries</button>
+                <button class="nav-btn" data-category="non-veg-curries">Non-Veg Curries</button>
+                <button class="nav-btn" data-category="biryanis">Biryanis</button>
+            </div>
+
+            <!-- Food Menu Content -->
+            <div class="menu-content">
+                <!-- Chaats Section -->
+                <div class="menu-category" data-category="chaats">
+                    <h3><i class="fas fa-utensils"></i> Chaats</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Pani Puri</h4>
+                                <span class="price">£6.50</span>
+                            </div>
+                            <p class="description">Crispy puris filled with spiced potatoes, chickpeas, and tangy tamarind water</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator medium">Medium Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Bhel Puri</h4>
+                                <span class="price">£7.00</span>
+                            </div>
+                            <p class="description">Puffed rice, vegetables, and chutneys mixed with crispy sev</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Dahi Puri</h4>
+                                <span class="price">£7.50</span>
+                            </div>
+                            <p class="description">Crispy puris topped with yogurt, chutneys, and fresh coriander</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Veg Curries Section -->
+                <div class="menu-category" data-category="veg-curries">
+                    <h3><i class="fas fa-seedling"></i> Veg Curries</h3>
+                    <p class="curry-note">All curries are served with rice or naan bread.</p>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Paneer Tikka</h4>
+                                <span class="price">£13.50</span>
+                            </div>
+                            <p class="description">Grilled cottage cheese in spiced marinade with mint chutney</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator medium">Medium Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Aloo Gobi</h4>
+                                <span class="price">£12.00</span>
+                            </div>
+                            <p class="description">Potatoes and cauliflower in aromatic spices and herbs</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Dal Makhani</h4>
+                                <span class="price">£11.50</span>
+                            </div>
+                            <p class="description">Slow-cooked black lentils with cream and butter</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Curries Section -->
+                <div class="menu-category" data-category="non-veg-curries">
+                    <h3><i class="fas fa-drumstick-bite"></i> Non-Veg Curries</h3>
+                    <p class="curry-note">All curries are served with rice or naan bread.</p>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Butter Chicken</h4>
+                                <span class="price">£14.50</span>
+                            </div>
+                            <p class="description">Tender chicken in rich tomato and butter sauce with cream</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Chicken Tikka Masala</h4>
+                                <span class="price">£15.00</span>
+                            </div>
+                            <p class="description">Grilled chicken in aromatic spiced tomato and cream sauce</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator medium">Medium Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Lamb Rogan Josh</h4>
+                                <span class="price">£16.50</span>
+                            </div>
+                            <p class="description">Tender lamb in aromatic Kashmiri spices and yogurt sauce</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator hot">Hot Spice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Biryanis Section -->
+                <div class="menu-category" data-category="biryanis">
+                    <h3><i class="fas fa-seedling"></i> Biryanis</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Chicken Biryani</h4>
+                                <span class="price">£16.00</span>
+                            </div>
+                            <p class="description">Fragrant basmati rice with tender chicken and aromatic spices</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator medium">Medium Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Lamb Biryani</h4>
+                                <span class="price">£17.50</span>
+                            </div>
+                            <p class="description">Slow-cooked lamb with fragrant rice and caramelized onions</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator hot">Hot Spice</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Vegetable Biryani</h4>
+                                <span class="price">£14.00</span>
+                            </div>
+                            <p class="description">Mixed vegetables with aromatic rice and whole spices</p>
+                            <div class="spice-level">
+                                <span class="spice-indicator mild">Mild Spice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drinks Menu Section -->
+    <section id="drinks-menu" class="menu-section drinks-section">
+        <div class="container">
+            <div class="menu-header">
+                <h2>Drinks Menu</h2>
+                <p>Refreshing beverages to complement your meal</p>
+            </div>
+
+            <!-- Menu Navigation -->
+            <div class="menu-nav">
+                <button class="nav-btn active" data-category="all-drinks">All Drinks</button>
+                <button class="nav-btn" data-category="coffee">Coffee</button>
+                <button class="nav-btn" data-category="milkshakes">Milkshakes</button>
+                <button class="nav-btn" data-category="soft-drinks">Soft Drinks</button>
+            </div>
+
+            <!-- Drinks Menu Content -->
+            <div class="menu-content">
+                <!-- Coffee Section -->
+                <div class="menu-category" data-category="coffee">
+                    <h3><i class="fas fa-coffee"></i> Coffee</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Masala Chai</h4>
+                                <span class="price">£3.50</span>
+                            </div>
+                            <p class="description">Traditional spiced tea with milk and aromatic spices</p>
+                            <div class="drink-features">
+                                <span class="feature hot"><i class="fas fa-fire"></i> Hot</span>
+                                <span class="feature dairy"><i class="fas fa-milk"></i> Dairy</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Filter Coffee</h4>
+                                <span class="price">£3.00</span>
+                            </div>
+                            <p class="description">South Indian style filter coffee with milk</p>
+                            <div class="drink-features">
+                                <span class="feature hot"><i class="fas fa-fire"></i> Hot</span>
+                                <span class="feature dairy"><i class="fas fa-milk"></i> Dairy</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Espresso</h4>
+                                <span class="price">£2.50</span>
+                            </div>
+                            <p class="description">Single shot of premium espresso</p>
+                            <div class="drink-features">
+                                <span class="feature hot"><i class="fas fa-fire"></i> Hot</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milkshakes Section -->
+                <div class="menu-category" data-category="milkshakes">
+                    <h3><i class="fas fa-glass-whiskey"></i> Milkshakes</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Mango Lassi</h4>
+                                <span class="price">£4.00</span>
+                            </div>
+                            <p class="description">Sweet mango yogurt drink with cardamom</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature dairy"><i class="fas fa-milk"></i> Dairy</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Strawberry Milkshake</h4>
+                                <span class="price">£4.50</span>
+                            </div>
+                            <p class="description">Fresh strawberry milkshake with cream</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature dairy"><i class="fas fa-milk"></i> Dairy</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Chocolate Milkshake</h4>
+                                <span class="price">£4.50</span>
+                            </div>
+                            <p class="description">Rich chocolate milkshake with whipped cream</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature dairy"><i class="fas fa-milk"></i> Dairy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Drinks Section -->
+                <div class="menu-category" data-category="soft-drinks">
+                    <h3><i class="fas fa-glass-whiskey"></i> Soft Drinks</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Virgin Mojito</h4>
+                                <span class="price">£4.50</span>
+                            </div>
+                            <p class="description">Fresh mint, lime, and soda with a hint of sweetness</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature vegan"><i class="fas fa-leaf"></i> Vegan</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Lemonade</h4>
+                                <span class="price">£3.50</span>
+                            </div>
+                            <p class="description">Fresh squeezed lemonade with mint</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature vegan"><i class="fas fa-leaf"></i> Vegan</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-header">
+                                <h4>Fresh Juice</h4>
+                                <span class="price">£3.00</span>
+                            </div>
+                            <p class="description">Daily selection of fresh fruit juices</p>
+                            <div class="drink-features">
+                                <span class="feature cold"><i class="fas fa-snowflake"></i> Cold</span>
+                                <span class="feature vegan"><i class="fas fa-leaf"></i> Vegan</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Namaaste London</h3>
+                    <p>Authentic Indian cuisine in the heart of London</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#food-menu">Food Menu</a></li>
+                        <li><a href="#drinks-menu">Drinks Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://instagram.com/namaaste_london" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com/namaaste_london" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/namaaste.london" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/namaaste_london" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Namaaste London. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="menu-single.js"></script>
+</body>
+</html> 

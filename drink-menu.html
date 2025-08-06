@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drink Menu - Namaaste London | Authentic Indian Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore our refreshing drink menu at Namaaste London. Fresh coffee, milkshakes, spritz, and traditional Indian beverages. Best drinks in London." />
+  <meta name="keywords" content="Indian restaurant drinks London, coffee menu, milkshake menu, spritz menu, Indian drinks, Namaaste London beverages" />
+  <meta name="author" content="Namaaste London" />
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Drink Menu - Namaaste London" />
+  <meta property="og:description" content="Explore our refreshing drink menu with fresh coffee, milkshakes, and spritz." />
+  <meta property="og:type" content="restaurant.menu" />
+  <meta property="og:url" content="https://namaastelondon.com/drink-menu.html" />
+  <meta property="og:image" content="drink-image.jpeg" />
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <link rel="stylesheet" href="drink-menu.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html">
+          <h2>Namaaste London</h2>
+        </a>
+      </div>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="menu-hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="welcome-text">Our Drink Menu</span>
+        <span class="restaurant-name">Namaaste London</span>
+        <span class="tagline">Refreshing Beverages</span>
+      </h1>
+      <p class="hero-subtitle">Quench your thirst with our selection of fresh coffees, creamy milkshakes, and refreshing spritz</p>
+    </div>
+  </section>
+
+  <!-- Menu Navigation -->
+  <section class="menu-nav">
+    <div class="container">
+      <div class="menu-nav-buttons">
+        <button class="nav-btn active" data-category="all">All Drinks</button>
+        <button class="nav-btn" data-category="coffee">Coffee</button>
+        <button class="nav-btn" data-category="milkshakes">Milkshakes</button>
+        <button class="nav-btn" data-category="spritz">Spritz</button>
+        <button class="nav-btn" data-category="soft-drinks">Soft Drinks</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Content -->
+  <section class="menu-content">
+    <div class="container">
+      
+      <!-- COFFEE -->
+      <div class="menu-section" data-category="coffee">
+        <div class="section-header">
+          <h2><i class="fas fa-coffee"></i> Coffee</h2>
+          <p>Freshly brewed coffee and hot beverages</p>
+        </div>
+        
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Americano</h3>
+              <span class="price">£2.95</span>
+            </div>
+            <p class="description">Espresso with hot water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Cappuccino</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Espresso with steamed milk and foam</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Cortado</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Espresso with equal parts steamed milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Espresso</h3>
+              <span class="price">£2.50</span>
+            </div>
+            <p class="description">Single shot of concentrated coffee</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Flat White</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Espresso with microfoam milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Latte</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Espresso with steamed milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Macchiato</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Espresso with a small amount of steamed milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Single Espresso</h3>
+              <span class="price">£2.00</span>
+            </div>
+            <p class="description">Single shot of espresso</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Hot Chocolate</h3>
+              <span class="price">£3.60</span>
+            </div>
+            <p class="description">Rich chocolate with steamed milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Tea</h3>
+              <span class="price">£2.50</span>
+            </div>
+            <p class="description">Assorted tea selection</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-fire"></i> Hot</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Hot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MILK SHAKES -->
+      <div class="menu-section" data-category="milkshakes">
+        <div class="section-header">
+          <h2><i class="fas fa-ice-cream"></i> Milk Shakes</h2>
+          <p>Creamy and delicious milkshakes</p>
+        </div>
+        
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Mango Milkshake</h3>
+              <span class="price">£4.99</span>
+            </div>
+            <p class="description">Fresh mango with creamy milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Strawberry Milkshake</h3>
+              <span class="price">£4.99</span>
+            </div>
+            <p class="description">Fresh strawberries with creamy milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Vanilla Milkshake</h3>
+              <span class="price">£4.20</span>
+            </div>
+            <p class="description">Classic vanilla with creamy milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Chocolate Milkshake</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Rich chocolate with creamy milk</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-milk"></i> Dairy</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPRITZ -->
+      <div class="menu-section" data-category="spritz">
+        <div class="section-header">
+          <h2><i class="fas fa-wine-glass"></i> Spritz</h2>
+          <p>Refreshing spritz cocktails</p>
+        </div>
+        
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Mango Spritz</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Mango flavor with sparkling water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Apricot Spritz</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Apricot flavor with sparkling water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Strawberry Spritz</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Strawberry flavor with sparkling water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Raspberry Spritz</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Raspberry flavor with sparkling water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Blueberry Spritz</h3>
+              <span class="price">£4.50</span>
+            </div>
+            <p class="description">Blueberry flavor with sparkling water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SOFT DRINKS -->
+      <div class="menu-section" data-category="soft-drinks">
+        <div class="section-header">
+          <h2><i class="fas fa-glass-whiskey"></i> Soft Drinks</h2>
+          <p>Refreshing soft drinks and beverages</p>
+        </div>
+        
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Coke</h3>
+              <span class="price">£1.50</span>
+            </div>
+            <p class="description">Classic Coca-Cola</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Coke Zero</h3>
+              <span class="price">£1.50</span>
+            </div>
+            <p class="description">Sugar-free Coca-Cola</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Diet Coke</h3>
+              <span class="price">£1.50</span>
+            </div>
+            <p class="description">Diet Coca-Cola</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Limca</h3>
+              <span class="price">£1.99</span>
+            </div>
+            <p class="description">Indian lemon-lime soda</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Thumbs Up</h3>
+              <span class="price">£1.99</span>
+            </div>
+            <p class="description">Indian cola drink</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Still Water</h3>
+              <span class="price">£1.50</span>
+            </div>
+            <p class="description">Pure still water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Sparkling Water</h3>
+              <span class="price">£1.75</span>
+            </div>
+            <p class="description">Carbonated water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Lemonade</h3>
+              <span class="price">£1.50</span>
+            </div>
+            <p class="description">Fresh lemonade</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-header">
+              <h3>Soda Water</h3>
+              <span class="price">£1.25</span>
+            </div>
+            <p class="description">Plain soda water</p>
+            <div class="drink-features">
+              <span class="feature"><i class="fas fa-leaf"></i> Vegan</span>
+              <span class="feature"><i class="fas fa-snowflake"></i> Cold</span>
+            </div>
+            <div class="drink-options">
+              <span class="option">Available: Cold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="menu-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Order?</h2>
+        <p>Call us now or visit us to enjoy our refreshing beverages</p>
+        <div class="cta-buttons">
+          <a href="tel:+4420XXXXXXXX" class="btn btn-primary">
+            <i class="fas fa-phone"></i>
+            Call Now
+          </a>
+          <a href="https://maps.app.goo.gl/jSSUGGL7CpDrscaj7" target="_blank" class="btn btn-secondary">
+            <i class="fas fa-map-marker-alt"></i>
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Namaaste London</h3>
+          <p>Authentic Indian cuisine in the heart of London</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/namaaste_london?igsh=MWZscnlnNDNvb212cw==" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="food-menu.html">Food Menu</a></li>
+            <li><a href="drink-menu.html">Drink Menu</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone"></i> +44 20 XXXX XXXX</p>
+          <p><i class="fas fa-clock"></i> Daily 11AM-11PM</p>
+          <p><i class="fas fa-map-marker-alt"></i> London, UK</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Namaaste London. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script src="drink-menu.js"></script>
+</body>
+</html>
+  
