@@ -129,7 +129,7 @@ body {
   
   
   /* === Responsive === */
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
     body {
       padding: 15px 10px;
     }
