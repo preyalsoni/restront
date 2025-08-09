@@ -115,7 +115,7 @@ body {
   
   
   /* === Responsive === */
-  @media (max-width: 2160px * 3840px) {
+  @media (max-width: 1040px) {
     body {
       padding: 15px 10px;
     }
